@@ -1,0 +1,143 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+
+.sidebar {
+  width: 35%;
+  height: 100%;
+}
+
+#sidebar-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#image-caption {
+  position: absolute;
+  color: white;
+  top: 85%;
+  width: 35%;
+  text-align: center;
+}
+
+#image-caption a {
+  color: rgb(51, 198, 198);
+}
+
+.image-logo {
+  position: absolute;
+  top: 25%;
+  height: 25%;
+  width: 35%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-logo img {
+  height: 100%;
+}
+
+.image-logo p {
+  font-size: 4rem;
+  color: white;
+}
+
+.main-form {
+  width: 65%;
+  background-color: rgb(248, 248, 248);
+}
+
+form {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.text-block {
+  font-size: 1.5rem;
+  padding: 5% 15% 5% 5%;
+}
+
+.main-form form {
+  padding: 2% 5% 5% 5%;
+  background-color: white;
+}
+
+.main-form p {
+  font-size: 1.5rem;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0 15% 0 0;
+  border: 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10%;
+}
+
+.input-section {
+  width: 100%;
+}
+
+input {
+  background-color: #ffffff;
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+label {
+  font-size: 0.8rem;
+  color: #3c3c3c;
+}
+
+button {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #ffffff;
+  background-color: #057e59;
+
+  border: none;
+  border-radius: 7px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.account-block {
+  padding: 3%;
+}
+
+#account-login {
+  font-size: 1rem;
+  margin-top: 3%;
+}
+
+.password-error {
+  border: 1px solid #ff6363;
+}
+
+#password-error-text {
+  position: absolute;
+  color: #ff6363;
+  font-size: 0.8rem;
+  margin: 0;
+}
